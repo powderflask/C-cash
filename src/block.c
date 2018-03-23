@@ -23,7 +23,7 @@
 
 // Dynamic transactions in t are owned by this Block and will be deleted when this Block is deleted!
 Block_t* blkCreate(TransactionList t, int difficulty, Nonce_t proof_of_work ) {
-   static id = 0;
+   static int id = 0;
    id++;
    Block_t* block = malloc(sizeof(Block_t));
    block->id = id;

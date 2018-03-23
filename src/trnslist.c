@@ -52,9 +52,9 @@ void trnsPrint(const TransactionRecord r) {
    printf("   <%s --> %.4f --> %s> %s \n", r.debtor, r.amount, r.creditor, formatted_datetime);
    
    // CODE FOR READING A FORMATTED DATE/TIME back into a timestamp
-   struct tm timestruct;
-   strptime (formatted_datetime, fmt, &timestruct);
-   assert(mktime(&timestruct) == r.timestamp);
+   //struct tm timestruct;
+   //strptime (formatted_datetime, fmt, &timestruct);
+   //assert(mktime(&timestruct) == r.timestamp);
 }
 
 int trnsSerialLen(const TransactionRecord r) {

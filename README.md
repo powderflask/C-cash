@@ -9,4 +9,4 @@ C modules and test drivers for C-cash application -- a simple blockchain demo us
 ## Build test drivers
  * clone / download project
  * clone / dowload dependency to sha1 sub-folder
- * make
+ * `make`
